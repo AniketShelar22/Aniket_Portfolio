@@ -83,14 +83,15 @@ export function Project() {
             <div className="body">
               <h3>Portfolio Tracker Website</h3>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+              Developed a full-stack stock portfolio tracker with a React.js frontend (deployed on Netlify) and a Spring Boot backend (deployed on Render), using PostgreSQL for data persistence. Integrated REST APIs for real-time stock data retrieval and portfolio management, allowing users to track investments, view historical trends, and generate financial reports. Implemented secure authentication and authorization for personalized insights.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>React.js</li>
+                <li>Spring Boot</li>
+                <li>postgresql</li>
+                <li>Netlify</li>
               </ul>
             </footer>
           </div>

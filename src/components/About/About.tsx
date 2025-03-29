@@ -11,6 +11,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import javaIcon from "../../assets/java-icon.svg";
 
 export function About() {
   return (
@@ -37,11 +38,11 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+              <img src={javaIcon} alt="java" />
             </ScrollAnimation>
-          </div> */}
+          </div>
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
@@ -59,11 +60,11 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />

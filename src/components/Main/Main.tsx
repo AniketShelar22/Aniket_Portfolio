@@ -15,6 +15,8 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import vscodeIcon from "../../assets/vscode-icon.svg";
+import javaIcon from "../../assets/java-icon.svg";
 
 export function Main() {
   return (
@@ -194,7 +196,7 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": javaIcon,
                   "width": 20,
                   "height": 20
                 },
@@ -203,11 +205,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": vscodeIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": vscodeIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": vueIcon,
                   "width": 20,
