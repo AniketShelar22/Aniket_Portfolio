@@ -1,14 +1,13 @@
 import { Container, ContainerSucces } from './styles'
 import { useForm, ValidationError } from '@formspree/react'
 import { toast, ToastContainer } from 'react-toastify'
-import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
 
 export function Form() {
   const [state, handleSubmit] = useForm('myzedkwp')
   const [validEmail, setValidEmail] = useState(false)
-  const [isHuman, setIsHuman] = useState(false)
+  // const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
@@ -74,7 +73,7 @@ export function Form() {
         />
         <button
           type="submit"
-          // disabled={state.submitting || !validEmail || !message }
+          
         >
           Submit
         </button>
