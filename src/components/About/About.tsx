@@ -19,18 +19,15 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Aniket, a passionate full-stack developer skilled in Java, Spring Boot, Node.js, React.js, and Angular. With expertise in MySQL and MongoDB, I develop scalable and high-performance applications tailored to user needs.          
+          Hi there! I'm Aniket, a passionate full-stack developer skilled in Java, Spring Boot, Node.js, React.js, and Angular. With expertise in MySQL and MongoDB, I'm currently exploring opportunities in web development, MERN stack, and .NET roles.          
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          I have hands-on experience in building e-commerce platforms, portfolio trackers, and online bookstores, integrating advanced technologies like AI-powered chatbots, secure payment gateways, and cloud hosting on AWS. My development approach follows Agile methodologies, ensuring efficiency and collaboration in dynamic projects.            </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-          Always eager to learn and innovate, I'm currently exploring opportunities in web development, MERN stack, and .NET roles. If you're looking for a skilled developer to bring your vision to life, let's connect and build something impactful!
+          If you're looking for a skilled developer to bring your vision to life, let's connect and build something impactful!
           </p>
         </ScrollAnimation>
+        
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
